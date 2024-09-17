@@ -1,0 +1,39 @@
+main {
+  background-image: url("../assets/hero-img.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 37rem;
+}
+.crafting-africa {
+    width: 39.56rem;
+    padding-left: 8.1rem;
+    padding-top: 12.6rem;
+    height: 17.87rem;
+}
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 81.72px;
+}
+p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27.24px;
+}
+@media (max-width: 768px) {
+  .crafting-africa {
+    width: 90%;
+    padding-left: 1rem;
+    padding-top: 6rem;
+    height: 5rem;
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 60.72px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24.24px;
+  }
+}
